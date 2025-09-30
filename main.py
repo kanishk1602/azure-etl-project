@@ -11,7 +11,7 @@ import logging
 
 def main():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
-    logging.info("Starting ETL pipeline...")
+    logging.info("Starting ETL pipeline..")
     df = extract_data()
     logging.info(f"Extracted data:\n{df}")
     df = transform_data(df)

@@ -15,3 +15,4 @@ def extract_data(source='data/sample.csv'):
         logging.warning(f"File {source} not found. Using demo data.")
         df = pd.DataFrame({'id': [1, 2, 3], 'value': [10, 20, 30]})
     return df
+###
